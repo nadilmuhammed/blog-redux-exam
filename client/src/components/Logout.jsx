@@ -21,7 +21,7 @@ const Logout = () => {
         </h1>{" "}
         <button className='logout_btn' onClick={(e) => handleLogout(e)}>Logout</button>
         <div>
-            <button>continue</button>
+            <a href='/home'><button>continue</button></a>
         </div>
     </div>
   )
